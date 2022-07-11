@@ -1,0 +1,21 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    width: 37%;
+    height: 650px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px #29282893;
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    border-radius: 20px;
+    text-align: left;
+    background-color:  rgba(68, 68, 68, 0.521);
+    flex-direction: column;
+}
+.toastcls{
+    color:#01060cd7;
+    font-size: 25px;
+    background-color: #6d6d6eec;
+}

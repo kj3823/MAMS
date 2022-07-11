@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="backdrop"></div>
+<header class="main-header">
+    <button id="side-menu-toggle">Menu</button>
+    <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+        </ul>
+        <ul class="main-header__item-list">
+                <li class="main-header__item">
+                    <a class="<%= path === '/login' ? 'active' : '' %>" href="/login">Login</a>
+                </li>
+                <li class="main-header__item">
+                    <a class="<%= path === '/signup' ? 'active' : '' %>" href="/signup">Signup</a>
+                </li>
+        </ul>
+    </nav>
+</header>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/auth.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form class= "login-form"action ="/signup" method = "POST">
+        <div class = 'form-control'>
+            <label for="firstName">FirstName</label>
+            <input type="firstName" name = "firstName" id = "firstName">           
+        </div>
+        <div class = 'form-control'>
+            <label for="lastName">LastName</label>
+            <input type="lastName" name = "lastName" id = "lastName">           
+        </div>
+        <div class = 'form-control'>
+            <label for="email">Email</label>
+            <input type="email" name = "email" id = "email">           
+        </div>
+        <div class = 'form-control'>
+            <label for="password">Password</label>
+            <input type="password" name = "password" id = "password">           
+        </div>
+        
+        <button class="btn" type="submit">Signup</button>
+    </form>
+</body>
+</html>

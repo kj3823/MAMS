@@ -1,0 +1,24 @@
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    word-spacing: 40px;
+    justify-items: center;
+    margin: 0 auto;
+    position: static;
+    background-image: url("https://yt3.ggpht.com/a/AATXAJws2ulOWVe1DzwhjQ5MBuJ4KWLKhS3NJqtd6w=s900-c-k-c0xffffffff-no-rj-mo");
+    background-size: 80px;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.navlink{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+#navsub{
+    background-color: darkgray;
+    color: rgb(3, 42, 61);
+    border-radius: 12%;
+}

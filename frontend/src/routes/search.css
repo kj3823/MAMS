@@ -1,0 +1,28 @@
+.updatecontainer{
+    width: 100%;
+    height: 800pt;
+    box-sizing: border-box;
+    box-shadow: 40px 40px 40px 40px slategray;
+    border-radius: 6%;
+    border: 8px solid rgba(5, 1, 66, 0.996);
+    font-size: 23px;
+}
+.txtinp{
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(5, 23, 145);
+    color: indigo;
+    text-align: center;
+    background-color: rgb(245, 172, 104);
+}
+#srchbtn{
+    width: 140px;
+    color: rgba(236, 236, 242, 0.667);
+    font-size: 20px;
+}
+#tbleupd{
+    font-size: 23px;
+    width: 70%;
+    margin: 0 auto;
+    object-fit: scale-down;
+}

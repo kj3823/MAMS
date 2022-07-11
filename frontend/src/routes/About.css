@@ -1,0 +1,27 @@
+.main-about{
+background-blend-mode: hard-light;
+background-image: url("https://yt3.ggpht.com/a/AATXAJws2ulOWVe1DzwhjQ5MBuJ4KWLKhS3NJqtd6w=s900-c-k-c0xffffffff-no-rj-mo");
+background-repeat: no-repeat;
+background-position: top left;
+background-size: 190px;
+font-weight: bolder;
+font-size: 28px;
+color: rgb(232, 226, 226);
+text-shadow: 1px 1px 1px rgba(45, 46, 46, 0.466);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .image {
+      animation: App-logo-spin infinite 5s  alternate-reverse;
+      height: 0%;
+      transform: rotate(0);
+    }
+    .image {
+      animation: Text infinite 5s linear;
+      height: 100%;
+      transform: rotate(30);
+    }
+  }
+  h2{
+    color: rgb(49, 204, 204);
+  }
